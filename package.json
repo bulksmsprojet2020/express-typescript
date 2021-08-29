@@ -1,0 +1,37 @@
+{
+  "name": "gaming-actions",
+  "version": "1.0.0",
+  "description": "gaming actions",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc & nodemon .",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "game gaming actions FIFA BASKET"
+  },
+  "author": "Abdourahmane Diallo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "swagger-ui-express": "^4.1.6",
+    "typeorm": "^0.2.37"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/helmet": "^4.0.0",
+    "@types/node": "^16.7.4",
+    "nodemon": "^2.0.12",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
